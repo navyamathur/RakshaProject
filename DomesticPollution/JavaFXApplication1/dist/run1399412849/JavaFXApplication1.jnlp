@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXApplication1.jnlp">
+  <information>
+    <title>JavaFXApplication1</title>
+    <vendor>VKC</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXApplication1.jar" size="14291" download="eager" />
+    <jar href="lib\cmu_time_awb.jar" size="1723774" download="eager" />
+    <jar href="lib\cmu_us_kal.jar" size="4899359" download="eager" />
+    <jar href="lib\cmudict04.jar" size="894905" download="eager" />
+    <jar href="lib\cmulex.jar" size="599429" download="eager" />
+    <jar href="lib\cmutimelex.jar" size="1231" download="eager" />
+    <jar href="lib\en_us.jar" size="866598" download="eager" />
+    <jar href="lib\freetts-jsapi10.jar" size="56313" download="eager" />
+    <jar href="lib\freetts.jar" size="208668" download="eager" />
+    <jar href="lib\jsoup-1.11.2.jar" size="392350" download="eager" />
+    <jar href="lib\jsoup-1.8.1.jar" size="300844" download="eager" />
+    <jar href="lib\jsr113.jar" size="136109" download="eager" />
+    <jar href="lib\mbrola.jar" size="11926" download="eager" />
+    <jar href="lib\org.jvoicexml.jsapi2.freetts.jar" size="30825" download="eager" />
+    <jar href="lib\org.jvoicexml.jsapi2.jar" size="246204" download="eager" />
+    <jar href="lib\org.jvoicexml.jsapi2.mac.jar" size="19137" download="eager" />
+    <jar href="lib\org.jvoicexml.jsapi2.sapi.jar" size="44399" download="eager" />
+    <jar href="lib\org.jvoicexml.jsapi2.sphinx4.jar" size="68400" download="eager" />
+    <jar href="lib\sqljdbc4.jar" size="537303" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaFXApplication1" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafxapplication1.JavaFXApplication1"  name="JavaFXApplication1" />
+  <update check="always"/>
+</jnlp>
